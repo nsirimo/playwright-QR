@@ -4,7 +4,7 @@
   "description": "A repo for testing QR codes using Playwright",
   "main": "index.js",
   "scripts": {
-    "smoke": "npx playwright test"
+    "smoke": "npx playwright test",
     "e2e": "npx playwright test"
   },
   "keywords": [],
@@ -12,6 +12,11 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.44.1",
-    "@types/node": "^20.14.8"
+    "@types/node": "^20.14.8",
+    "@types/pngjs": "^6.0.5"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0"
   }
 }
