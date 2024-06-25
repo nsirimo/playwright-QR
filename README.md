@@ -39,7 +39,7 @@ The test suite covers the following features of the QR Code Monkey website:
 3. **Display Error Message for URL Input**
 4. **Adds a logo to the QR**
 5. **QR Code Generation for Webpage QR**: Ensures that QR codes are generated and takes a screenshot of the QR code, then decodes the QR.
-6. **\*QR Code Generation for Downloaded QR**: Ensures that QR codes are generated and decodes the QR in png.
+6. **\QR Code Generation for Downloaded QR**: Ensures that QR codes are generated and decodes the QR in png.
 7. **Cookie Consent**: Added cookie consent code to bypass the pop up if it does come up.
 
 ## Future Plans
